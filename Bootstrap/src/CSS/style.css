@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  
+}
+
+.interface{
+  max-width: 1280px;
+  margin: 0 auto;
+} 
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.imagem-carroussel {
+  object-fit: cover; /* preenche a div com o objeto */
+  object-position: 0 60%; /* */
+  height: 400px;
+}
+.fonte-titulo{
+  font-family: 'Pacifico', cursive;
+}
+
+
+.fonte-sub{
+  margin-top: 30px;
+  font-family: 'Pacifico', cursive;
+  color: darkred;
+  font-size: 40px;
+}
+
+.container-1, .container-2{
+  margin-top: 50px;
+}
+
+.sub{
+  color: rgba(0, 0, 0, 0.438);
+  font-size: 15px;
+}
+
+.btn{
+  background-color: darkred;
+  color: bisque;
+}
+
+.btn:hover{
+  color: white;
+}
+
+.card-posicao-imagem{
+ object-fit: cover; /* Preenche a div com o object */
+ /* object-position: 0 60%; 
+ height: 200px; */
+}
+.img-col{
+  width: 50%;
+  object-fit: cover;
+  padding: 50px;
+  align-items: center;
+  margin-left: 100px;
+}
+.card-deck{
+  border: none;
+}
+.top {
+  justify-content: flex-end;
+  margin-left: 30px;
+  position:sticky;
+  bottom:20px;
+  margin-top:100vh;
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: white;
+  background: darkred;
+  border-radius: 100px;
+}
